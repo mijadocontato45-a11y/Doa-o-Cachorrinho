@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f8f5ef">
+<title>Uma chance para meu melhor amigo 🐾</title>
+<meta name="description" content="Campanha transparente para arrecadar R$ 200 para a cirurgia de um cachorrinho.">
+<style>
+:root{--bg:#f8f5ef;--ink:#252821;--muted:#6e736a;--green:#244f3c;--green2:#dce9df;--orange:#ef9b67;--white:#fff;--line:#e5e4dc;--shadow:0 18px 55px #243c2b12}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6}a{color:inherit}.wrap{width:min(1120px,calc(100% - 36px));margin:auto}
+header{padding:20px 0;display:flex;justify-content:space-between;align-items:center;gap:20px}.brand{display:flex;gap:11px;align-items:center;font-weight:850;letter-spacing:-.03em}.brand-mark{width:42px;height:42px;display:grid;place-items:center;background:var(--green);color:white;border-radius:15px;font-size:22px}.nav{display:flex;gap:22px;align-items:center;font-size:14px;color:var(--muted)}.nav a{text-decoration:none}.nav .nav-cta{background:var(--green);color:#fff;padding:10px 16px;border-radius:999px;font-weight:750}
+.hero{display:grid;grid-template-columns:1fr .92fr;gap:56px;align-items:center;padding:50px 0 72px}.eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--green);font-weight:800;text-transform:uppercase;letter-spacing:.12em;font-size:11px}.eyebrow:before{content:"";width:24px;height:2px;background:var(--orange)}h1{font-size:clamp(42px,6.2vw,72px);letter-spacing:-.065em;line-height:.99;margin:19px 0 22px;max-width:650px}h1 em{font-style:normal;color:var(--green)}.hero p{font-size:18px;color:var(--muted);max-width:540px;margin:0 0 25px}.buttons{display:flex;gap:11px;flex-wrap:wrap}.btn{display:inline-flex;justify-content:center;align-items:center;gap:9px;text-decoration:none;border:0;border-radius:13px;padding:14px 19px;font:inherit;font-weight:800;cursor:pointer;transition:.18s}.btn:hover{transform:translateY(-2px)}.btn-primary{background:var(--green);color:white;box-shadow:0 8px 20px #244f3c25}.btn-light{background:#fff;color:var(--green);border:1px solid var(--line)}.trustline{display:flex;gap:12px;align-items:center;margin-top:23px;color:var(--muted);font-size:12px}.avatars{display:flex}.avatars span{display:grid;place-items:center;width:30px;height:30px;border:2px solid var(--bg);border-radius:50%;background:var(--green2);margin-right:-7px;font-size:14px}.hero-photo{position:relative;min-height:480px;border-radius:34px;overflow:hidden;background:#ead8c6;box-shadow:var(--shadow)}.hero-photo img{position:absolute;width:100%;height:100%;inset:0;object-fit:cover}.photo-note{position:absolute;left:18px;right:18px;bottom:18px;padding:17px 19px;background:#fffef4ee;backdrop-filter:blur(12px);border:1px solid #ffffffa6;border-radius:18px}.photo-note b{display:block;font-size:14px}.photo-note span{color:var(--muted);font-size:12px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:0 0 72px}.stat{background:#fff;border:1px solid var(--line);border-radius:18px;padding:20px 22px}.stat strong{display:block;font-size:25px;letter-spacing:-.04em;color:var(--green)}.stat span{font-size:12px;color:var(--muted)}
+.section{padding:0 0 78px}.section-head{max-width:680px;margin-bottom:27px}.kicker{font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:#b56c3e;font-weight:850}.section h2{font-size:clamp(30px,4vw,45px);line-height:1.08;letter-spacing:-.05em;margin:9px 0 12px}.section-head p{color:var(--muted);margin:0}
+.donation-layout{display:grid;grid-template-columns:1.05fr .95fr;gap:18px;align-items:stretch}.panel{background:#fff;border:1px solid var(--line);border-radius:24px;padding:28px;box-shadow:var(--shadow)}.goal-top{display:flex;justify-content:space-between;gap:20px;align-items:start}.label{color:var(--muted);font-size:13px}.money{font-size:45px;line-height:1.1;font-weight:900;letter-spacing:-.06em;margin:5px 0}.pill{white-space:nowrap;border-radius:999px;padding:7px 11px;background:var(--green2);color:var(--green);font-size:11px;font-weight:850}.progress{height:9px;border-radius:999px;background:#edf0e9;overflow:hidden;margin:23px 0 9px}.progress span{display:block;height:100%;width:0%;background:var(--orange);border-radius:999px}.progress-caption{display:flex;justify-content:space-between;color:var(--muted);font-size:12px}.use-of-funds{display:grid;gap:12px;margin-top:25px}.fund-row{display:flex;justify-content:space-between;gap:14px;font-size:14px}.fund-row span{color:var(--muted)}.pix-panel{background:var(--green);color:white;border-radius:24px;padding:28px;position:relative;overflow:hidden}.pix-panel:after{content:"🐾";position:absolute;right:-8px;top:-25px;font-size:140px;opacity:.08;transform:rotate(18deg)}.pix-panel h3{font-size:23px;margin:0 0 5px;letter-spacing:-.04em}.pix-panel>p{color:#d9e6dc;font-size:13px;margin:0 0 22px}.pix-label{font-size:10px;letter-spacing:.14em;font-weight:850;color:#d9e6dc}.pix-key{background:#ffffff15;border:1px solid #ffffff30;border-radius:12px;padding:13px 14px;margin:8px 0 13px;overflow-wrap:anywhere;font-size:14px;font-weight:750}.pix-panel .btn{width:100%;background:#fff;color:var(--green)}.pix-help{font-size:11px!important;margin:12px 0 0!important}
+.evidence-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.evidence-card{background:#fff;border:1px solid var(--line);border-radius:20px;overflow:hidden}.evidence-image{height:190px;background:#eee9df;display:grid;place-items:center;position:relative;overflow:hidden}.evidence-image img{width:100%;height:100%;object-fit:cover}.evidence-placeholder{padding:20px;text-align:center;color:#71776e}.evidence-placeholder b{display:block;color:var(--green);font-size:30px}.evidence-body{padding:18px}.evidence-body h3{font-size:16px;margin:0 0 7px}.evidence-body p{font-size:13px;color:var(--muted);margin:0}.evidence-tag{display:inline-block;background:#f8eee6;color:#995b32;border-radius:7px;padding:4px 7px;font-size:10px;font-weight:850;margin-bottom:10px}
+.transparency{display:grid;grid-template-columns:.8fr 1.2fr;gap:28px;background:#ecefe7;border-radius:26px;padding:30px}.transparency h3{font-size:26px;letter-spacing:-.04em;line-height:1.1;margin:8px 0}.transparency p{font-size:13px;color:var(--muted)}.checklist{list-style:none;padding:0;margin:0;display:grid;gap:12px}.checklist li{display:flex;gap:11px;font-size:14px}.check{flex:none;width:23px;height:23px;display:grid;place-items:center;background:#fff;border-radius:8px;color:var(--green);font-weight:900}
+.gallery{display:grid;grid-template-columns:1.15fr .85fr .85fr;grid-template-rows:180px 180px;gap:12px}.gallery img{width:100%;height:100%;object-fit:cover;border-radius:17px;background:#e5ddd2}.gallery img:first-child{grid-row:span 2}
+.final-cta{background:#f2e4d8;border-radius:28px;padding:34px;display:flex;justify-content:space-between;align-items:center;gap:24px}.final-cta h2{font-size:32px;letter-spacing:-.05em;line-height:1.08;margin:0 0 8px}.final-cta p{margin:0;color:var(--muted);font-size:14px}
+footer{border-top:1px solid var(--line);margin-top:72px;padding:25px 0 34px;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:18px}
+@media(max-width:800px){.nav a:not(.nav-cta){display:none}.hero{grid-template-columns:1fr;gap:28px;padding:30px 0 45px}.hero-photo{min-height:390px}.stats{margin-bottom:55px}.donation-layout{grid-template-columns:1fr}.evidence-grid{grid-template-columns:1fr}.evidence-image{height:220px}.transparency{grid-template-columns:1fr}.gallery{grid-template-rows:140px 140px}.final-cta{align-items:flex-start;flex-direction:column}}
+@media(max-width:480px){.wrap{width:min(100% - 24px,1120px)}header{padding:14px 0}.brand{font-size:14px}.nav .nav-cta{padding:9px 12px;font-size:12px}.hero-photo{min-height:310px;border-radius:25px}h1{font-size:47px}.hero p{font-size:16px}.stats{grid-template-columns:1fr;gap:8px}.stat{padding:14px 18px}.stat strong{font-size:22px}.panel,.pix-panel{padding:22px}.money{font-size:39px}.gallery{grid-template-columns:1fr 1fr;grid-template-rows:150px 115px}.gallery img:first-child{grid-row:auto;grid-column:span 2}.final-cta{padding:25px}.final-cta h2{font-size:28px}footer{flex-direction:column}}
+</style>
+</head>
+<body>
+<header class="wrap">
+  <a class="brand" href="#" style="text-decoration:none"><span class="brand-mark">🐾</span><span>Uma chance para meu melhor amigo</span></a>
+  <nav class="nav"><a href="#historia">A história</a><a href="#comprovantes">Comprovantes</a><a class="nav-cta" href="#doar">Quero ajudar ↗</a></nav>
+</header>
+
+<main class="wrap">
+  <section class="hero" id="historia">
+    <div>
+      <div class="eyebrow">Uma campanha feita com amor</div>
+      <h1>Ele só precisa de uma <em>chance.</em></h1>
+      <p>Estou tentando arrecadar <strong>R$ 200</strong> para ajudar com a cirurgia do meu cachorrinho. Cada contribuição, por menor que seja, me aproxima de dar a ele o cuidado de que precisa. Se não puder doar, compartilhar já ajuda muito. ❤️</p>
+      <div class="buttons"><a class="btn btn-primary" href="#doar">💚 Ajudar com Pix</a><a class="btn btn-light" href="#comprovantes">Ver informações da cirurgia ↓</a></div>
+      <div class="trustline"><div class="avatars"><span>🐶</span><span>❤️</span><span>🐾</span></div><span>Ajuda transparente • Meta de R$ 200</span></div>
+    </div>
+    <div class="hero-photo">
+      <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=1100&q=85" alt="Cachorro deitado olhando para a câmera" onerror="this.style.display='none'">
+      <div class="photo-note"><b>Todo cuidado faz diferença.</b><span>Troque esta imagem por uma foto real do seu cachorrinho.</span></div>
+    </div>
+  </section>
+
+  <section class="stats" aria-label="Resumo da campanha">
+    <div class="stat"><strong>R$ 200</strong><span>Meta de arrecadação</span></div>
+    <div class="stat"><strong>Cirurgia</strong><span>Objetivo da campanha</span></div>
+    <div class="stat"><strong>100%</strong><span>Compromisso com transparência</span></div>
+  </section>
+
+  <section class="section" id="doar">
+    <div class="section-head"><div class="kicker">Como ajudar</div><h2>Uma pequena ajuda pode fazer diferença.</h2><p>Use a chave Pix abaixo para contribuir. Antes de publicar, substitua o texto de exemplo pela sua chave correta.</p></div>
+    <div class="donation-layout">
+      <div class="panel">
+        <div class="goal-top"><div><div class="label">Nossa meta</div><div class="money">R$ 200,00</div><div class="label">para ajudar com os custos da cirurgia</div></div><span class="pill">🐾 Cada real conta</span></div>
+        <div class="progress"><span></span></div><div class="progress-caption"><span>Arrecadação inicial</span><span>Meta: R$ 200</span></div>
+        <div class="use-of-funds"><div class="fund-row"><span>Procedimento veterinário</span><strong>A confirmar</strong></div><div class="fund-row"><span>Medicamentos / cuidados</span><strong>A confirmar</strong></div><div class="fund-row"><span>Valor total da campanha</span><strong>R$ 200,00</strong></div></div>
+        <p style="font-size:11px;color:var(--muted);margin:18px 0 0">Os custos detalhados devem ser atualizados conforme o orçamento real da clínica veterinária.</p>
+      </div>
+      <div class="pix-panel">
+        <div class="pix-label">DOAÇÃO SEGURA • PIX</div><h3>Ajude a chegar à meta ❤️</h3><p>Contribua com o valor que puder. Muito obrigado por apoiar!</p>
+        <div class="pix-label">MINHA CHAVE PIX</div><div class="pix-key" id="pixKey">d205d94c-5d07-4f34-bdb4-8f78f1cab811</div>
+        <button class="btn" id="copyPix" type="button">📋 Copiar chave Pix</button>
+        <p class="pix-help" id="feedback" role="status" aria-live="polite">Confira os dados do destinatário no aplicativo do seu banco antes de confirmar.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="comprovantes">
+    <div class="section-head"><div class="kicker">Informação e confiança</div><h2>Veja os comprovantes da cirurgia.</h2><p>Para dar confiança a quem ajuda, adicione aqui fotos reais e documentos verdadeiros da clínica. Os espaços abaixo são marcadores para você substituir — não são comprovantes médicos.</p></div>
+    <div class="evidence-grid">
+      <article class="evidence-card"><div class="evidence-image"><div class="evidence-placeholder"><b>＋</b><strong>Foto do seu cachorrinho</strong><br><small>Substitua por uma foto real</small></div></div><div class="evidence-body"><span class="evidence-tag">FOTO REAL</span><h3>Conheça quem precisa de ajuda</h3><p>Use uma foto atual do seu pet. Evite imagens de outros animais que possam confundir os doadores.</p></div></article>
+      <article class="evidence-card"><div class="evidence-image"><div class="evidence-placeholder"><b>＋</b><strong>Orçamento veterinário</strong><br><small>Adicione foto ou PDF real</small></div></div><div class="evidence-body"><span class="evidence-tag">DOCUMENTO A ADICIONAR</span><h3>Orçamento da cirurgia</h3><p>Publique o orçamento fornecido pela clínica, com data e valores legíveis. Oculte telefone, endereço e dados pessoais que não sejam necessários.</p></div></article>
+      <article class="evidence-card"><div class="evidence-image"><div class="evidence-placeholder"><b>＋</b><strong>Pedido ou laudo veterinário</strong><br><small>Adicione documento real</small></div></div><div class="evidence-body"><span class="evidence-tag">DOCUMENTO A ADICIONAR</span><h3>Orientação do veterinário</h3><p>Se tiver, adicione o pedido de cirurgia ou relatório da clínica. Não invente diagnósticos nem altere documentos.</p></div></article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="transparency">
+      <div><div class="kicker">Prestação de contas</div><h3>Quem ajuda merece saber como o dinheiro será usado.</h3><p>Atualize esta seção quando tiver o orçamento e depois da cirurgia. Só publique informações que você consiga confirmar.</p></div>
+      <ul class="checklist"><li><span class="check">1</span><span><strong>Antes:</strong> anexar orçamento e orientação veterinária verdadeiros.</span></li><li><span class="check">2</span><span><strong>Durante:</strong> atualizar o valor arrecadado conforme as doações recebidas.</span></li><li><span class="check">3</span><span><strong>Depois:</strong> compartilhar recibos e uma atualização sobre a recuperação, protegendo dados pessoais.</span></li></ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=900&q=80" alt="Cachorro olhando para a câmera" loading="lazy">
+      <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=700&q=80" alt="Cachorro em ambiente claro" loading="lazy">
+      <img src="https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?auto=format&fit=crop&w=700&q=80" alt="Cachorro ao ar livre" loading="lazy">
+    </div>
+    <p style="font-size:11px;color:var(--muted);margin-top:10px">Imagens ilustrativas de cães. Troque-as pelas fotos do seu próprio cachorrinho para que a campanha represente a situação real.</p>
+  </section>
+
+  <section class="final-cta">
+    <div><h2>Obrigado por dar uma patinha. 🐾</h2><p>Doar, compartilhar ou enviar palavras de apoio já significa muito.</p></div>
+    <a class="btn btn-primary" href="#doar">Ajudar agora ↑</a>
+  </section>
+</main>
+<footer class="wrap"><span>Feito com carinho para uma campanha de ajuda animal.</span><span>Use apenas fotos e informações verdadeiras.</span></footer>
+
+<script>
+const pixKey = document.getElementById('pixKey').textContent.trim();
+const feedback = document.getElementById('feedback');
+document.getElementById('copyPix').addEventListener('click', async () => {
+  if (pixKey === 'COLOQUE_SUA_CHAVE_PIX_AQUI') {
+    feedback.textContent = 'Edite index.html e substitua o campo pela sua chave Pix antes de publicar.';
+    return;
+  }
+  try { await navigator.clipboard.writeText(pixKey); feedback.textContent = 'Chave Pix copiada! Confira o destinatário no banco antes de pagar. ❤️'; }
+  catch(e) { feedback.textContent = 'Não foi possível copiar automaticamente. Selecione e copie a chave acima.'; }
+});
+</script>
+</body>
+    </html>
